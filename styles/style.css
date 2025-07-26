@@ -83,16 +83,20 @@ main> section{
 }
 /* feature style */
 .our-feature{
-     align-items: center;
+    
+   
     
 }
 .feature-img-contianer{
-   margin-left: 130px;
+   margin-left: 300px;
 }
 .our-features{
-      margin-left: 73px;
+      margin-left: 130px;
       max-width: 530px;
 
+}
+.quick-list{
+    font-weight: 500;
 }
 .feature-img-contianer{
     display:grid;
@@ -102,6 +106,59 @@ main> section{
 .feature-title{
     font-size: 2.8rem;
 }
+.feature-description{
+    font-size: 16px;
+}
+.span-feature{
+    color: #FF900E;
+}
+/* feature will injoy */
+.feature-enjoy{
+    gap:140px;
+    max-width: 1440px;
+    margin: 130px auto;
+}
+#section-feature-injoy-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+#section-feature-injoy-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.feature-injoy-description{
+    font-size: 16px;
+    margin-left: 20px;
+}
+.featur-card{
+    padding: 3dvh;
+    border-radius: 8px;
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.feature-injoy-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+#exprienc-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#exprience-year{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
 /* Responsive Midea Query */
 @media screen and (max-width:576px){
     .navbar, .nav-links{
@@ -112,5 +169,8 @@ main> section{
     }
     .bannar-description{
         margin: 0 1.25px;
+    }
+    .our-feature{
+      flex-direction: column;
     }
 }
