@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+/* Shared Style */
+.display-flex{
+    display: flex;
+}
+.dark-01{
+    color: #131313;
+}
+.dark-02{
+    color: #424242;
+}
+.dark-03{
+    color: #727272;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+main> section{
+    margin-top: 130px;
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: #fff;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+/* header style */
+
+/* navbar style */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+.navbrand{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-links{
+    text-decoration: none;
+    font-weight:400 ;
+    font-size: 18px;
+}
+.navbar, .bannar{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* bannar related style */
+.bannar-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom:50px;
+}
+.bannar-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.bannar-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.bannar-img{
+    width: 100%;
+}
+/* feature style */
+.our-feature{
+     align-items: center;
+    
+}
+.feature-img-contianer{
+   margin-left: 130px;
+}
+.our-features{
+      margin-left: 73px;
+      max-width: 530px;
+
+}
+.feature-img-contianer{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:24px;
+}
+.feature-title{
+    font-size: 2.8rem;
+}
+/* Responsive Midea Query */
+@media screen and (max-width:576px){
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+    .bannar-title{
+        font-size: 3rem;
+    }
+    .bannar-description{
+        margin: 0 1.25px;
+    }
+}
